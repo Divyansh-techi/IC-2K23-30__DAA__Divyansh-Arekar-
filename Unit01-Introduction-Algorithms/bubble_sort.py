@@ -5,7 +5,7 @@ def b_sort():
         for j in range(0,len(lst)-i-1):
             if lst[j]>lst[j+1]:
                 temp=lst[j]
-                lst[j]=lst[j+1]
+                lst[j]=lst[j+1]  
                 lst[j+1]= temp
                 done=True
         if not done:
